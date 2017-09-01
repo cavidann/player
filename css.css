@@ -1,46 +1,47 @@
-obdy{
+body{
   background: black;
 }
-#wraper{
+.wraper{
   width: 640px;
   margin: 10px auto;
+  display: inline-block;
 }
 nav{
   background: grey;
   width: 640px;
   padding-bottom: 3px;
 }
-#defaultBar{
+.defaultBar{
   width: 640px;
   position: relative;
   background: #606060;
   height: 10px;
 }
-#progressBar{
+.progressBar{
   position: absolute;
   height: 10px;
   background: #3498db;
   width: 0px;
 }
-#playButton{
+.playButton{
   background: rgb(250,250,250);
   border: none;
   height: 32px;
   width: 32px;
   background: url(play.jpg) no-repeat;
-  background-size: 32px;
+  background-size: cover;
   background-position:center; 
 }
-#muteButton{
+.muteButton{
   background: rgb(250,250,250);
   border: none;
   height: 32px;
   width: 32px;
   background: url(speaker.png) no-repeat;
-  background-size: 32px;
+  background-size: cover;
   background-position:center; 
 }
-#muteButton:active,#playButton:active{
+.muteButton:active,.playButton:active{
 position: relative;
 top: 2px;
 outline: none;
